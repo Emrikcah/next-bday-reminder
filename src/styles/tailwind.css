@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn{
+   @apply bg-pink-400 hover:bg-pink-300 transition text-white block border-transparent capitalize w-full mt-8 pt-2 mx-auto text-lg tracking-widest rounded cursor-pointer  relative active:top-1;
+}
