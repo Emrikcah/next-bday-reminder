@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-
+//character data being passed as prop from Home.js
 const Card = ({characters}) => {
    return (
       <>
